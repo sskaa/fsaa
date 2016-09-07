@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      {{ site.title }}{% if page.title %} - {{ page.title }} {% endif %}
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h1>{{ site.title }}</h1>
+        <p>
+          <a href="index.html">Udgivelser</a> |
+          <a href="authors.html">Forfattere</a>
+        </p>
+      </div>
+      <div class="content">
+        {{ content }}
+      </div>
+      <div class="footer">
+        <p class="about">
+          Forlaget Sidste Århundrede udgiver oversat litteratur.<br/>
+          Kontakt: <a href="mailto:redaktion@sidsteaarhundrede.dk">redaktion@sidsteaarhundrede.dk</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
