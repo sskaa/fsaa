@@ -2,3 +2,52 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+
+a {
+  color: #C00;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+div.content {
+  display: block;
+}
+
+div.footer {
+  border-top: 1px solid #CCC;
+  display: block;
+  font-size: 80%;
+  margin-top: 20px;
+}
+
+div.header {
+  display: block;
+  margin-bottom: 20px;
+}
+
+div.main {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  width: 500px;
+}
+
+li.title {
+  display: inline-block;
+  float: left;
+  padding: 0 0 0 0;
+  vertical-align: top;
+  max-width: 250px;
+}
+
+li.title > img {
+  max-width: 100%;
+}
+
+ul.titles {
+  padding: 0 0 0 0;
+}
