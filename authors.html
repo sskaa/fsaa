@@ -2,3 +2,10 @@
 layout: default
 ---
 <h2>Forfattere</h2>
+<ul class="authors">
+  {% for author in site.data.contentful.spaces.fsaa.author %}
+    <li class="author">
+      {{ author.name }}
+    </li>
+  {% endfor %}
+</ul>
