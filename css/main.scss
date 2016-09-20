@@ -3,6 +3,9 @@
 ---
 @charset "utf-8";
 
+$body-font: "Adobe Garamond Pro", serif;
+$heading-font: "Futura", sans-serif;
+
 a {
   color: #C00;
   text-decoration: underline;
@@ -10,7 +13,7 @@ a {
 }
 
 body {
-  font-family: "Helvetica", sans-serif;
+  font: 11pt $body-font;
 }
 
 div.content {
@@ -33,22 +36,43 @@ div.main {
   display: block;
   margin: 0 auto 0 auto;
   padding: 0;
-  width: 500px;
+  width: 600px;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+  font-family: $heading-font;
 }
 
 li.title {
-  display: inline-block;
-  float: left;
-  padding: 0 0 0 0;
-  vertical-align: top;
-  max-width: 250px;
+  clear: both;
+  display: block;
+  font-family: $body-font;
+  margin-bottom: 20px;
+  overflow: auto;
 }
 
-li.title > img {
-  max-width: 100%;
+li.title img {
+  float: left;
+  width: 250px;
+}
+
+li.title div {
+  float: right;
+  margin: 0 10px 0 10px;
+  vertical-align: middle;
+  width: 330px;
+}
+
+li.title h3 {
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+}
+
+span.title_title {
+  font-size: 150%;
+  text-transform: uppercase;
 }
 
 ul.titles {
-  overflow: auto;
   padding: 0 0 0 0;
 }
