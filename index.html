@@ -5,18 +5,25 @@ layout: default
 <ul class="titles">
   {% for book in site.data.contentful.spaces.fsaa.book %}
   <li class="title">
-    <img src="http://{{ book.cover.url }}"
-      alt="{{book.cover.title}}"/>
-    <br/>
-    {% assign author_count = book.authors | size | minus: 1 %}
-    {% for i in (0 .. author_count) %}
-      {% assign this_author_id = book.authors[i].first[1].first[1] %}
-      {% for author in site.data.contentful.spaces.fsaa.author %}
-        {% if this_author_id == author.first[1].first[1] %}
-          {{ author.name }}
-        {% endif %}
+    <img src="http:{{ book.cover.url }}" alt="{{book.cover.title}}"/>
+    <div>
+      <h3>{{ book.title }}</h3>
+      {% assign author_count = book.authors | size | minus: 1 %}
+      {% for i in (0 .. author_count) %}
+        {% assign this_author_id = book.authors[i].first[1].first[1] %}
+        {% for author in site.data.contentful.spaces.fsaa.author %}
+          {% if this_author_id == author.first[1].first[1] %}
+            <p class="title_author">{{ author.name }}</p>
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
+      {% for contributor in book.contributors %}
+        <p>{{ contributor }}</p>
+      {% endfor %}
+      {% if book.quotes %}
+      <p class="title_quotes">{{ book.quotes | markdownify }}</p>
+      {% endif %}
+    </p>
   </li>
   {% endfor %}
 </ul>
