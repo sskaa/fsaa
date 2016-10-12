@@ -1,0 +1,73 @@
+---
+author:
+- sys:
+    id: 27bg3HLOwEgCOmsuWo6O68
+  name: Unica Zürn
+  yearOfBirth: 1916
+  yearOfDeath: 1970
+  portrait:
+    title: Unica Zürn
+    url: "//images.contentful.com/d2kqghhyzt43/4Xl94yTr7OKSaSkgawQgW0/cc6c1541bbdaae5fd4184e576746eb5d/Unica_1950.jpg"
+  biography: Unica Zürn (1916-1970), forfatter og billedkunstner. Zürn tilhørte avantgardistiske
+    kredse i Paris og havde nære forbindelser til mange af surrealisterne – herunder
+    Max Ernst, Marcel Duchamp, Henri Michaux samt især Hans Bellmer, som hun både
+    arbejdede og levede sammen med. *Mørkt forår* blev den sidste udgivelse fra Zürns
+    hånd i hendes levetid. I 1970 kastede hun sig ud fra et vindue i sin lejlighed
+    efter flere fejlslagne selvmordsforsøg og langvarige ophold på psykiatriske klinikker.
+  works:
+  - sys:
+      id: 2fYcwSbGT28cIAg68Sq4C8
+- sys:
+    id: 3319JN4GPSk2AywoYwkWUm
+  name: Hermann Ungar
+  yearOfBirth: 1893
+  yearOfDeath: 1929
+  portrait:
+    title: Hermann Ungar
+    url: "//images.contentful.com/d2kqghhyzt43/46JE6HDPq0AKw2yKiw8uM2/626aed4b67dbc9880ceaf389d677485f/ungar.jpg"
+  biography: Hermann Ungar (1893–1929) var tysksproget forfatter og dramatiker af
+    mæhrisk-jødisk afstamning. Hans egenartede, både komiske og groteske forfatterskab
+    kredser om velordnede tilværelser, der afspores på grusomste vis og ender i angst,
+    perversion og fornedrelse. I sin levetid blev han kaldt 1920’ernes vigtigste forfatter
+    og nævnt i samme åndedrag som Franz Kafka; efter sin død forsvandt han i glemslen.
+    Hans bøger er i de seneste tredive år blevet genopdaget og oversat til adskillige
+    sprog.
+  works:
+  - sys:
+      id: 2sOCfeSGQ8MWSu2Gm0E4ie
+book:
+- sys:
+    id: 2sOCfeSGQ8MWSu2Gm0E4ie
+  title: De lemlæstede
+  authors:
+  - sys:
+      id: 3319JN4GPSk2AywoYwkWUm
+  isbn: 9788799617210
+  publicationDate: !ruby/object:DateTime 2016-08-23 00:00:00.000000000 +02:00
+  cover:
+    title: 'Hermann Ungar: De lemlæstede'
+    url: "//images.contentful.com/d2kqghhyzt43/3lVECn2vPigOuG2gs6qQMu/1451b5af445226fb037459c195b86367/forside-mindre.png"
+  description: Hermann Ungars roman *De lemlæstede*.
+  contributors:
+  - 'oversættelse: Søren Møllerhøj Porsmose'
+  - 'efterord: Steffen Skaarup'
+  quotes: '"Ungars roman er en psykoseksuel og socialpolitisk *Worstward ho!*, hvor
+    kun én ting er sikker fra begyndelsen: at det hele går lige lukt i lokummet. Som
+    om spørgsmålet, den stiller, er: Kan man synke lavere? For derefter at gå i gang
+    med at vise, at det kan man!" –Stig Sæterbakken'
+- sys:
+    id: 2fYcwSbGT28cIAg68Sq4C8
+  title: Mørkt forår
+  authors:
+  - sys:
+      id: 27bg3HLOwEgCOmsuWo6O68
+  isbn: 9788799617203
+  publicationDate: !ruby/object:DateTime 2015-10-06 00:00:00.000000000 +02:00
+  cover:
+    title: 'Unica Zürn: Mørkt forår'
+    url: "//images.contentful.com/d2kqghhyzt43/3iMTFjvvLGYoYqOsGmUeCi/b302399921eb3a93e0b7a1cdfcf990d0/omslag_web.png"
+  description: Unica Zürns kortroman *Mørkt forår*.
+  contributors:
+  - 'oversættelse: Steffen Skaarup'
+  - 'efterord: Olga Ravn'
+  - 'illustrationer: Hans Bellmer'
